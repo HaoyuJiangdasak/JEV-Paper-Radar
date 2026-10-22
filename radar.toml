@@ -10,7 +10,7 @@ combine = "max"            # "max": best-matching interest wins · "noisy_or": m
 
 [jev]
 backend = "typesafe"       # "typesafe" (TYPESAFE_API_KEY) · "openrouter" (OPENROUTER_API_KEY, no waitlist) · "mock"
-model = "jev-1.13.0"       # pin a version so results are reproducible; for openrouter use "typesafe/jev-1.13"
+model = "jev-1.14.0"       # pin a version so results are reproducible; for openrouter use "typesafe/jev-1.13"
 concurrency = 8
 requests_per_minute = 1000 # TypeSafe's documented limit is 1,200 requests/minute
 price_per_mtok = 0.042     # USD per million input tokens, used for the cost estimate (output tokens are free)
@@ -84,3 +84,4 @@ base_url = "https://api.openai.com/v1"
 model = ""
 language = "Traditional Chinese"
 top_k = 10
+
